@@ -9,7 +9,8 @@ public static void main(String[] args) {
 	for (int i=0; i<600; i++) {
 		int fibonacci=f1+f2;
 		System.out.println(fibonacci + ";");
-
+		f1=+f2;
+		f2=-f1;
 	}
 	System.out.println("Cansei.");
 	}
