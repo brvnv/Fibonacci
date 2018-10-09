@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	System.out.println("========");
 	int f1=0;
 	int f2=1;
-	for (int i=0; i<600; i++) {
+	for (int i=0; i<=17; i++) {
 		f1=f1+f2;
 		f2=f1-f2;
 		System.out.println(f2 + ";");
