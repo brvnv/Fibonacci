@@ -7,10 +7,9 @@ public static void main(String[] args) {
 	int f1=0;
 	int f2=1;
 	for (int i=0; i<600; i++) {
-		int fibonacci=f1+f2;
-		System.out.println(fibonacci + ";");
-		f1=+f2;
-		f2=-f1;
+		f1=f1+f2;
+		f2=f1-f2;
+		System.out.println(f2 + ";");
 	}
 	System.out.println("Cansei.");
 	}
